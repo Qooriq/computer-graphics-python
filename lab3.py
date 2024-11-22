@@ -6,10 +6,10 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import time
 
 lines_data = {
-    "step_by_step": {"points": [], "color": "blue"},
-    "dda": {"points": [], "color": "green"},
-    "bresenham": {"points": [], "color": "purple"},
-    "circle": {"points": [], "color": "red"}
+    "step_by_step": {"points": [], "color": "red"},
+    "dda": {"points": [], "color": "black"},
+    "bresenham": {"points": [], "color": "green"},
+    "circle": {"points": [], "color": "blue"}
 }
 
 labels = ['step_by_step', 'dda', 'bresenham', 'circle']
